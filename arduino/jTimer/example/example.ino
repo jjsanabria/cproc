@@ -27,7 +27,7 @@ void loop(){
     counter++;
     if(counter==200){
       counter = 0;
-      //print every 200 tics, hence every 200 ms
+      //print every 200 tics, hence every second
       Serial.println( millis() );
       }
   }  
